@@ -1,0 +1,71 @@
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+.container {
+    max-width: unset;
+}
+
+@font-face {
+  font-family: bodyfont;
+  src: url(./sst-arabic-light.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./HafsSmart_08.ttf);
+}
+html,body{
+  font-family: bodyfont;
+
+  background-color: #B1D8B7;
+}
+#homeaya{
+   font-family: myFirstFont;
+   position: relative;
+  
+ 
+  font-size: 50px;
+  
+}
+
+
+nav{
+  color: white;
+}
+.opener {
+  background: url(../images/bg.png) no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+  background-color: #004B3C;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.opener::after {
+  display: block;
+  content: "";
+  border-top: 100px solid #004B3C;
+  border-left: 100vw solid transparent;
+  background-color: #B1D8B7;
+  margin: 0 auto;
+  padding: 0;
+}
+  
+.wrapper {
+  padding: 30px;
+}

@@ -1,0 +1,381 @@
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+.container {
+    max-width: unset;
+}
+
+@font-face {
+  font-family: bodyfont;
+  src: url(./sst-arabic-light.ttf);
+}
+
+html{
+	  font-family: bodyfont;
+  background-color: black;
+color: white;
+ margin: 0;
+      display: inline-block;
+	
+
+
+}
+body{
+  background-color: black;
+  color: white;
+}
+h1{
+	font-family: bodyfont;
+}
+
+#sortitle {
+    
+	border-image: url("images/7.png") ;
+	border-image-width: 10px;
+	border: 5px solid  ;
+	border-color: black;
+	background-color: #90AC6B;
+  color: white;
+	border: 50px solid 30% round;
+ 
+  background-position: center;
+  border-width: 40%;
+  width: 40%;
+   
+  border-radius: 20%;
+  
+}
+#sour:link, #sour:visited {
+  background-color: black;
+  color: white;
+  border: 2px solid #2a2a2a;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#sour:hover, #sour:active {
+  background-color: #121212;
+  color: white;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./HafsSmart_08.ttf);}
+.sour{
+  direction: rtl;
+  font-family: myFirstFont;
+  background-color: #121212;
+  
+   border-radius: 25px;
+  border-bottom: 13px solid #2a2a2a;
+  padding: 20px;
+  color:white;
+}
+
+input[type=submit] {
+ background-color: gray;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #121212}
+
+th {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+#user{
+	
+	font-size: 40px;
+	width: 100%;
+	color: white;
+}
+#logo{
+	font-size: 40px;
+
+}
+#verses option:empty {display: none;}
+#verses option[value=""] {display: none;}
+audio:hover, audio:focus, audio:active
+{
+
+
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+
+
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+#audioaya{
+  direction: rtl;
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+#sound{
+  width: 100px;
+  color: black;
+  height: 50px;
+}
+
+
+#save{
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 0px;
+font-size: 16px;
+  cursor: pointer;}
+
+#avatars{
+
+  border-radius: 50%;
+
+}
+#prof{
+  background-color: black;
+}
+#options{
+  background-color: #121212;
+}
+
+#dark{
+  border: none;
+outline:none;
+}
+#light{
+  border: none;
+outline:none;
+}
+#light:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+#dark:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+#displaymood{
+  background-color: #121212;
+}
+.copy{
+    margin:20px;
+    padding:20px;
+    border-style:solid;
+    border-width:0px;
+    border-color: #fff;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    font-size:18px;
+}
+.rect{ margin: 20px; padding:0px; height:34px;}
+.rect-panel{border:none !important; background-color:black ;color: white;}
+#playlist,audio{width:90%;}
+.active #list-rec-audio{color:white;text-decoration:none; background-color: black;}
+ul{list-style:none; margin:0px; padding:20px;}
+li{margin:0px; padding:0px;}
+li, #list-rec-audio{transition:all 0.5s; color: white;}
+.list-rec.active #list-rec-audio{ text-decoration:none; color:white; background-color: black; border-radius:5px;}
+#list-rec-audio{display:block; position:relative; width:100%;}
+li #list-rec-audio{display:block; text-decoration:none;}
+li:hover{background-color:#2a2a2a;}
+li #list-rec-audio:hover{text-decoration:none; color: #121212;}
+#list-rec-audio{color:white; text-decoration:none;}
+.last{display:none;}
+.list-rec{color: #000; }
+.opener {
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+.opener::after {
+  display: block;
+  content: "";
+  border-top: 100px solid #121212;
+  border-left: 100vw solid transparent;
+  background-color: black;
+}
+  
+.wrapper {
+  padding: 30px;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+
+.container{
+}
+
+.trapezoid {
+  
+ border-radius: 25px;
+  border-bottom: 13px solid #2a2a2a;
+  
+background-color: #121212;
+position: sticky; 
+     top: 0;
+
+}
+#memoriestable{
+  
+     background-color: #121212;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+     
+      border-bottom: 13px solid #2a2a2a;
+}
+
+#memoriestable:before{
+    content: "";
+      position: absolute;
+      right: 100%;
+      top: 26px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      
+      border-bottom: 13px solid #2a2a2a;
+      
+}
+
+    
+#flag {
+ background-color: #121212;
+ border-radius: 25px;
+  border-bottom: 13px solid #2a2a2a;
+  padding: 20px;
+
+}
+img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+@font-face {
+  font-family: tafseer;
+  src: url(./UthmanicHafs1Ver16.ttf);
+}
+#tafseer{
+  font-family: tafseer;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  direction: ltr;
+
+}
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+                background-color: gray;
+}
+
+.tabbable  li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+
+   border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tabbable li a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+ padding: 10px;
+  border-radius: 5px;
+}
+.btn{
+  background-color: gray;
+  color: darkgreen;
+ padding:  0px;
+  text-align: center;
+ 
+}
+.btn:hover{
+  background-color: gray;
+  color:gray ;
+}
+.btn:focus{
+  background-color: white;
+  color:darkgreen ;
+}
+ul {
+      
+}
+
+ul li {
+    display: inline-block;
+    
+}
+#audioaya{
+   display: inline-block;
+}
+.container,.btn{
+display:inline;}
+#bsmla{
+  font-family: tafseer;
+  display:inline;
+}
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: #121212;
+  color: white;
+  width: 90%;
+  font-size: 20px;
+  font-family: bodyfont;
+}
+select,option{
+  background-color: gray;
+  color: white;
+  border: none;
+  -webkit-border-radius:3px;
+
+}

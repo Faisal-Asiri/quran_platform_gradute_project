@@ -1,0 +1,80 @@
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+.container {
+    max-width: unset;
+}
+
+@font-face {
+  font-family: bodyfont;
+  src: url(./sst-arabic-light.ttf);
+}
+html,body{
+   text-shadow: 2px 2px black;
+   font-size: 30px;
+  text-align: center;
+	 font-family: bodyfont;
+   color: white;
+    /* The image used */
+  background-image: url("https://i.pinimg.com/736x/91/4c/8a/914c8ad918ebadc9b8a23a18bd592c6d.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./HafsSmart_08.ttf);
+}
+.sour{
+  direction: rtl;
+  font-family: myFirstFont;
+	
+}
+@font-face {
+  font-family: tafseer;
+  src: url(./UthmanicHafs1Ver16.ttf);
+}
+
+#tafseer{
+ 
+
+  
+  font-family: tafseer;
+  font-size: 16px;
+  color:white;
+  background: black;
+  filter: alpha(opacity=60);
+  /* IE */
+  -moz-opacity: 0.6;
+  /* Mozilla */
+  opacity: 0.6;
+  /* CSS3 */
+  
+ 
+  height: 100%;
+  width: 100%;
+  
+
+}
+#right{
+  font-size: 15px;
+}
